@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cycu11022148"
+version = "2025.05.13"
+description = "A short description of the cycu11022148 package"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    { name="WU BING CHEN", email="wayne185185@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+    "beautifulsoup4==4.13.4",
+    "certifi==2025.4.26",
+    "charset-normalizer==3.4.2",
+    "greenlet==3.2.2",
+    "idna==3.10",
+    "playwright==1.52.0",
+    "pyee==13.0.0",
+    "requests==2.32.3",
+    "soupsieve==2.7",
+    "typing_extensions==4.13.2",
+    "urllib3==2.4.0"
+]
+
+[project.urls]
+"Homepage" = "https://your-homepage-url.com"
+"Source" = "https://github.com/your-username/your-repo"
